@@ -9,4 +9,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
+- Add `defineWorkflow` and `WorkflowError`: typed status workflows with guards, frozen audit history, optimistic versioning, replay-validated `restore` and Mermaid export.
 - Initial project structure from the factory utility template.

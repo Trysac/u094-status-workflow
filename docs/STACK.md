@@ -20,4 +20,4 @@
 | Shell scripts for gates | Not portable to Windows; the gate runner is a Node script. |
 | Bundlers (tsup, Rollup) | Unneeded for a small ESM library; `tsc` emits what is published. |
 
-Add a row whenever a dependency or tool is added or rejected.
+Each added or rejected dependency or tool is recorded as a row in one of these tables.
