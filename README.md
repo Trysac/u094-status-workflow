@@ -1,7 +1,6 @@
 # status-workflow
 
-[![npm version](https://img.shields.io/npm/v/@trysac/status-workflow.svg)](https://www.npmjs.com/package/@trysac/status-workflow)
-[![license: MIT](https://img.shields.io/npm/l/@trysac/status-workflow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![CI](https://github.com/Trysac/u094-status-workflow/actions/workflows/ci.yml/badge.svg)](https://github.com/Trysac/u094-status-workflow/actions/workflows/ci.yml)
 
 Typed configurable state machine for business statuses with guards, immutable audit history, optimistic versioning and Mermaid export
@@ -12,9 +11,15 @@ Business records such as orders, tickets or requests move through statuses, and 
 
 ## Install
 
+Not published to npm yet. Build it from a clone, then install it from the local path:
+
 ```sh
-npm install @trysac/status-workflow
+git clone https://github.com/Trysac/u094-status-workflow.git
+cd u094-status-workflow && npm ci && npm run build
+cd ../your-project && npm install ../u094-status-workflow
 ```
+
+Imports keep the package name: `import { ... } from "@trysac/status-workflow"`.
 
 Requires Node.js 20 or newer. The package ships ES modules with TypeScript declarations and has no runtime dependencies.
 
